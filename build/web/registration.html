@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Recommendation System - User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" >
+        <h1>A General Framework For Implicit And Explicit Social Recommendations</h1>
+    </div>
+
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="admin.html">Admin</a>
+        <a href="#">OSN User</a>
+        <a href="#">E Commerce</a>
+        <a href="registration.html">Registration</a>
+    </div><br><br>
+    <div class="slideshow-container" align="center">
+        <div class="mySlides">
+            <img src="ecommerce img1" alt="Image 1" height="350px" width="1000px">
+        </div>
+        <div class="mySlides">
+            <img src="ecommerce img2" alt="Image 2" height="350px" width="1000px">
+        </div>
+        <div class="mySlides">
+            <img src="ecommerce img3" alt="Image 3" height="350px" width="1000px">
+        </div>
+    </div>
+
+    <div class="adminflex">
+        <div class="registration-form">
+            <h1>User Registration</h1>
+            <form action="registration.jsp" method="post">
+                <table>
+                    <tr>
+                        <td><label for="userType">Select Type:</label></td>
+                        <td>
+                            <select id="userType" name="userType" required>
+                                <option value="osnUser">OSN User</option>
+                                <option value="eCommerceUser">E Commerce User</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="username">User Name:</label></td>
+                        <td><input type="text" id="username" name="username" required></td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="email">Email ID:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="dob">Date Of Birth:</label></td>
+                        <td><input type="date" id="dob" name="dob" required></td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="gender">Select Gender:</label></td>
+                        <td>
+                            <select id="gender" name="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><textarea id="address" name="address" rows="4" required></textarea></td>
+                    </tr>
+        
+                    <tr>
+                        <td><label for="mobile">Mobile Number:</label></td>
+                        <td><input type="text" id="mobile" name="mobile" required></td>
+                    </tr>
+        
+                    <tr>
+                        <td colspan="2"><input type="submit" value ="register"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="sidebar-card">
+            <h2>Sidebar Menu</h2><br>
+            <ul class="sidebar-menu">
+                <li><a onclick="navigate('index.html')">Home</a></li><br>
+                <li><a onclick="navigate('admin.html')">Admin</a></li><br>
+                <li><a onclick="navigate('#')">User</a></li><br>
+                <li><a onclick="navigate('#')">E Commerce</a></li><br>
+                <li><a onclick="navigate('registration.html')">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
+

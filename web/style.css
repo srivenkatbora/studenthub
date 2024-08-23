@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(5, 5, 80); 
+}
+.header {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.header p {
+    font-size: 18px;
+}
+.navigation {
+    text-align: center;
+    background-color: rgb(5, 5, 80); 
+    padding: 10px 0;
+}
+.navigation a {
+    text-decoration: solid;
+    background-color: #f19999;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 20px 0;
+}
+.mySlides {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.adminflex {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 226, 226);
+}
+
+.admin-form {
+    max-width: 300px;
+    margin: 20px auto;
+}
+.admin-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.admin-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.admin-form input[type="button"] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar-card {
+    float: right;
+    max-width: 250px;
+    padding: 30px;
+    padding-bottom: 5px;
+    margin-right: 60px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sidebar-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 5px;
+}
+
+.sidebar-menu a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 226, 226);
+}
+
+.admin-dashboard-card {
+    float: right;
+    max-width: 250px;
+    padding: 30px;
+    padding-bottom: 5px;
+    margin-right: 60px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.admin-dashboard-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.admin-dashboard-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-dashboard-menu li {
+    margin-bottom: 5px;
+}
+
+.admin-dashboard-menu a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
